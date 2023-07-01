@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #353336;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 150px;
+  background-color: #d21855;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px 1px #161618;
+}
+
+.modal-btn {
+  border: none;
+  font-size: 24px;
+  color: #d21855;
+  font-weight: bold;
+  color: #353336;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.modal-btn:hover {
+  font-size: 26px;
+}
+
+.modal-btn:focus {
+  font-size: 26px;
+}
+
+.modal-btn:active {
+  color: #fff;
+}
+
+.score {
+  padding: 10px 10px;
+  min-width: 160px;
+  background-color: #000;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #d21855;
+  font-weight: bold;
+  text-align: center;
+}
+
+.canvas-wrap {
+}
+
+.canvas {
+  border-radius: 5px;
+  margin: 30px;
+  border: solid 10px #000;
+  box-shadow: 0px 0px 40px 10px #161618;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='4' fill='%23525053'/%3E%3C/svg%3E");
+  background-color: #000;
+}
+
+.hide {
+  display: none;
+}
